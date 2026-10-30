@@ -2,6 +2,12 @@
 // save: optional localStorage key + function that reads "times finished" (same origin, so the page can see it).
 window.GAMES = [
   {
+    name: 'Lygten', repo: 'kan-du-det/lygten', date: '2026-10-30', chapters: 'Kap. 3.2–3.3',
+    genre: 'Roguelike rute · ordforråd', status: 'prototype',
+    blurb: 'A sea of dunes, a little water, and a lantern that buys words. Your vocabulary is your equipment.',
+    save: { key: 'dk.lygten', done: (s) => s.stats && s.stats.done },
+  },
+  {
     name: 'Kan du det?!', repo: 'kan-du-det', date: '2026-10-29', chapters: 'Kap. 3.2–3.3',
     genre: 'Mini-spil · bullet heaven', status: 'final',
     blurb: 'A recycling station where the words you choose decide what things become. Adjective endings, colours, reactions.',
