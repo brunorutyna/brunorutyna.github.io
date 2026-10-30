@@ -3,7 +3,7 @@
 window.GAMES = [
   {
     name: 'Tørlagt', repo: 'kan-du-det', date: '2026-10-30', chapters: 'Kap. 3.2–3.3',
-    genre: 'Bizar historie · lektioner + mini-spil', status: 'prototype',
+    genre: 'Bizar historie · lektioner + mini-spil', status: 'final',
     blurb: 'A sponge is sent to a rehab camp in the desert to dry out. A lesson first, then the story and a game drill it. Six nights, three offers.',
     save: { key: 'dk.toerlagt', done: (s) => s.stats && s.stats.done },
   },
