@@ -2,9 +2,9 @@
 // save: optional localStorage key + function that reads "times finished" (same origin, so the page can see it).
 window.GAMES = [
   {
-    name: 'Tørlagt', repo: 'kan-du-det', date: '2026-10-30', chapters: 'Kap. 3.2–3.3',
+    name: 'Tørlagt', repo: 'kan-du-det', date: '2026-10-30', chapters: 'Kap. 3.2–3.3 + øvelser',
     genre: 'Bizar historie · lektioner + mini-spil', status: 'final',
-    blurb: 'A sponge is sent to a rehab camp in the desert to dry out. A lesson first, then the story and a game drill it. Six nights, three offers.',
+    blurb: 'A sponge is sent to a camp in the desert to dry out. A lesson first, then the story and a game drill it. Part 2 (Tuen) continues in a city inside an anthill.',
     save: { key: 'dk.toerlagt', done: (s) => s.stats && s.stats.done },
   },
   {
