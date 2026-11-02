@@ -4,7 +4,7 @@ window.GAMES = [
   {
     name: 'Tørlagt', repo: 'kan-du-det', date: '2026-10-30', chapters: 'Kap. 3.2–3.3 + øvelser + repetition',
     genre: 'Bizar historie · lektioner + mini-spil', status: 'final',
-    blurb: 'A sponge is sent to a camp in the desert to dry out. A lesson first, then the story and a game drill it. Part 2 (Tuen) continues in a city inside an anthill. Part 3 (Kaffehavet) reviews everything so far, by the coffee sea. Part 4 (Riffet): a band in the deep desert needs a roadie.',
+    blurb: 'A sponge is sent to a camp in the desert to dry out. A lesson first, then the story and a game drill it. Part 2 (Tuen) continues in a city inside an anthill. Part 3 (Kaffehavet) reviews everything so far, by the coffee sea. Part 4 (Riffet): a band in the deep desert needs a roadie. Part 5 (Fætter): one very long night with your cousin, the dealer.',
     save: { key: 'dk.toerlagt', done: (s) => s.stats && s.stats.done },
   },
   {
